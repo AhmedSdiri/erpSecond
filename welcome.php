@@ -13,10 +13,10 @@ include('functions.php');
 <hr>
 <div class="row">
 <div class="jumbotron">
-  <h1>Salut, <?php echo $_SESSION['login_username']; ?></h1>
+  
   <p style="font-size: 10px;">
   <?php
-	echo "Début de Session".$_SESSION['log_time'];
+//	echo "Début de Session".$_SESSION['log_time'];
     echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
   ?> 
   </p>
