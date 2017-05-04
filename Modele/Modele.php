@@ -7,8 +7,23 @@
  *
  * @author Baptiste Pesquet
  */
-abstract class Modele {
+ class Modele {
 
+    function __construct(){
+        
+    }
+    function connectDB(){
+        // Connect to the database
+	$mysqli = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASS, DATABASE_NAME);
+
+	// output any connection error
+	if ($mysqli->connect_error) {
+	    die('Error : ('. $mysqli->connect_errno .') '. $mysqli->connect_error);
+	}
+        else{
+            echo 'success of db connection';
+        }
+    }
     /** Objet PDO d'accès à la BD */
     private $bdd;
     //var table
@@ -50,5 +65,5 @@ abstract class Modele {
     function getData($table){
         $sql = "select * from  {$this->table}";
     }
-
+    
 }

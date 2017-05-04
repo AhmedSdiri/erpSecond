@@ -16,10 +16,13 @@
 include("../Modele/Customer.php");
 include("../Modele/Product.php");
 include("../Modele/invoice.php");
+include("../Modele/Modele.php");
 
 $client = new Customer();
 $product = new Product();
 $invoice = new Invoice();
+$modele = new Modele();
+
 
 echo $client->getCustomers();
 echo 'test<br/>';
@@ -32,5 +35,7 @@ echo $invoice->getInvoices();
 
 echo $client->__toString().'<br/>';
 
+$modele->connectDB();
 
-echo 'fin';
+
+echo '<br/><h3>fin page test<h3>';
