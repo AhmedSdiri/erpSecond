@@ -3,7 +3,7 @@
 
  include ("../Controleur/ControllerLogin.php");
  include("../header-login.php");
- include ("../functions");
+ include ("../functions.php");
     ?>
 
 <h3>hello i am the login!!!</h3>
@@ -57,10 +57,3 @@
 </body>
 
 </html>
-
- 
- 
-
-  
- 
-
