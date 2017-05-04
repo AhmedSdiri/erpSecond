@@ -7,7 +7,8 @@ echo 'db works fine';
 $vuelogin = new vueLogin();
 
 
-/********************/
+/*********testing from brackets***********/
+
 
 
 
