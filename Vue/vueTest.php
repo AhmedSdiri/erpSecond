@@ -16,6 +16,7 @@
 include("../Modele/Customer.php");
 include("../Modele/Product.php");
 include("../Modele/invoice.php");
+include("../Controleur/ControllerLogin.php");
 
 $client = new Customer();
 $product = new Product();

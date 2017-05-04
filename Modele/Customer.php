@@ -5,7 +5,7 @@ include_once("../includes/config.php");
 class Customer{
     // populate product dropdown for invoice creation
     
-    public $customer;
+
     
     
 function __construct(){

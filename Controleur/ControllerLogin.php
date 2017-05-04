@@ -36,7 +36,8 @@ if($_POST['username'] != "" && $_POST['password'] != "") {
         $_SESSION['login_username'] = $row['username'];
 		$d=mktime(11, 14, 54, 8, 12, 2014);
 		$_SESSION['log_time'] = date("Y-m-d h:i:sa", $d);
-        echo 1;  
+        echo 1;
+        echo 'database established';
     } else {
         echo 0;
     }

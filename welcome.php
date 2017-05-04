@@ -13,7 +13,7 @@ include('functions.php');
 <hr>
 <div class="row">
 <div class="jumbotron">
-  
+   
   <p style="font-size: 10px;">
   <?php
 //	echo "Début de Session".$_SESSION['log_time'];
