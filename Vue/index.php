@@ -3,7 +3,7 @@
 //include_once ("../Controleur/ControllerLogin.php");
 include '../Vue/vueLogin.php';
 
-$mysqli = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASS, DATABASE_NAME);
+/*$mysqli = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASS, DATABASE_NAME);
 
 // output any connection error
 if ($mysqli->connect_error) {
@@ -42,4 +42,4 @@ if($_POST['username'] != "" && $_POST['password'] != "") {
 
 ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script></script>
+    <script></script>*/

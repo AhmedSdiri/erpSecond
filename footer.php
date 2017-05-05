@@ -26,7 +26,7 @@
 
 				</div>
                 <div>
-                     <a href="Vue/vueTest.php">vueTest</a>
+                     <a href="vueTest.php">vueTest</a>
                 </div>
                
 			</div>

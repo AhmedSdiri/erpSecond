@@ -1,7 +1,7 @@
 <?php
 include('../header-first.php');
 include('../functions.php');
-
+require_once("../session.php");
 ?>
 <hr>
 <html>

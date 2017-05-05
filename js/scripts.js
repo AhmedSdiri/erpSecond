@@ -780,7 +780,7 @@ $(document).ready(function() {
 			var $btn = $("#btn-login").button("loading");
 
 			jQuery.ajax({
-				url: 'response.php',
+				url: 'reponse.php',
 				type: "POST",
 				data: $("#login_form").serialize(), // serializes the form's elements.
 				dataType: 'json',
@@ -790,7 +790,7 @@ $(document).ready(function() {
 					$("html, body").animate({ scrollTop: $('#response').offset().top }, 1000);
 					$btn.button("reset");
 
-					window.location = "welcome.php";
+					window.location = "vueWelcome.php";
 				},
 				error: function(data){
 					$("#response .message").html("<strong>" + data.status + "</strong>: " + data.message);
@@ -801,7 +801,6 @@ $(document).ready(function() {
 				}
 
 			});
-
 		}
 		
 	}
