@@ -4,11 +4,11 @@
  include ("../Controleur/ControllerLogin.php");
  include("../header-login.php");
  include ("../functions.php");
-
+ include ("../response.php")
     ?>
-
 <h3>hello i am the login!!!</h3>
 <head>
+    
 </head>
 <body>
    <div class="image-bg-fluid-height">
@@ -50,16 +50,17 @@
 		</div>
 	</div>
     <?php
-   //$controllerlogin = new ControllerLogin();
-   //$controllerlogin->connect();
-   //$controllerlogin->loginsystem();
-    echo 'test';
+   $controllerlogin = new ControllerLogin();
+   $controllerlogin->connectDB();
+  
+   
     ?>
 </div>
 
 <?php
 	include('../footer.php'); 
 ?>
+    
 </body>
 
 </html>

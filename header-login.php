@@ -12,7 +12,8 @@
 	<script src="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.js"></script>
 	<script src="../js/bootstrap.datetime.js"></script>
 	<script src="../js/bootstrap.password.js"></script>
-	<script src="../js/scripts.js"></script>
+	<!--<script src="../js/scripts.js"></script>-->
+    <script src="../js/buttons.js"></script>
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
