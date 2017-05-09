@@ -25,7 +25,7 @@ class ControllerLogin{
         
 
 
-    echo "success connection DB </br>";
+    echo "success connection DB</br>";
    // Login to system
    $action = isset($_POST['action']) ? $_POST['action'] : "";
   if($action == 'login') {
@@ -37,10 +37,10 @@ class ControllerLogin{
 
 	session_start();
 
-      $myArray = [];
-      $myArray = extract($_POST);
-      echo $myArray;
-      echo "success extracting post </br>";
+    $myArray = [];
+    $myArray = extract($_POST);
+    echo $myArray;
+    echo "success extracting post </br>";
 
     $username = mysqli_real_escape_string($mysqli,$_POST['username']);
     $pass_encrypt = md5(mysqli_real_escape_string($mysqli,$_POST['password']));

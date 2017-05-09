@@ -81,5 +81,6 @@ echo '</br>'. json_encode($arr).'</br>';
 	    	//'message'=> 'There has been an error, please try again.'
 	    	'message' => 'Login incorrect, does not exist or simply a problem! Try again!'
 	    ));
+echo '</br>Version PHP courante : ' . phpversion();
 //fin page
 echo '<br/><h3>fin page test<h3>';
